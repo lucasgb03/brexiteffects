@@ -32,9 +32,9 @@ pop: ~0%
 - RMSPE (Root Mean Squared Prediction Error) ratio (post/pre): 1.14 -> This modest increase suggests a divergence post-treatment but not a dramatic structural break, possibly due to overlapping effects from COVID-19.
 
 ## Files
--brexitsynth.csv: Input dataset for Synth model
--brexit_model.R: R script to run the SCM
--brexit_plot.png: Visualization comparing actual and synthetic U.K. GDP
+- brexitsynth.csv: Input dataset for Synth model
+- brexit_model.R: R script to run the SCM
+- brexit_plot.png: Visualization comparing actual and synthetic U.K. GDP
 
 ## Visualization
 A plot of actual vs. synthetic GDP shows how the U.K. deviated from its synthetic counterpart post-Brexit. This gap is largest during the COVID period, indicating a possible interaction between Brexit and pandemic-induced shocks.
